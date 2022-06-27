@@ -1,0 +1,16 @@
+name: Speedrace
+version: '${project.version}'
+main: xland.mcplugin.speedrace.Speedrace
+api-version: 1.19
+prefix: Speedrace
+authors: [ teddyxlandlee ]
+description: Who's the fastest to reach the target
+
+commands:
+  speedrace:
+    description: toggle speedrace game settings
+    usage: "/speedrace <start|stop>
+    /speedrace target <x_range> <y_range> <z_range> [dimension]
+    /speedrace players [player1] [player2] [...]"
+    aliases:
+      - sr
